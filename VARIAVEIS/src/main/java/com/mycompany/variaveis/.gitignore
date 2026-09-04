@@ -1,0 +1,31 @@
+cd C:\Users\JordanaLeite\Documents\LOGICA_DE_PROGRAMACAO\VARIAVEIS; "JAVA_HOME=C:\\Program Files\\Apache NetBeans\\jdk" cmd /c "\"C:\\Program Files\\Apache NetBeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" \"-Dexec.executable=C:\\Program Files\\Apache NetBeans\\jdk\\bin\\java.exe\" -Dexec.mainClass=com.mycompany.variaveis.CALCULOS_BASICOS -Dexec.classpathScope=runtime -Dexec.appArgs= \"-Dmaven.ext.class.path=C:\\Program Files\\Apache NetBeans\\java\\maven-nblib\\netbeans-eventspy.jar\" --no-transfer-progress process-classes org.codehaus.mojo:exec-maven-plugin:3.6.3:exec"
+Scanning for projects...
+
+----------------------< com.mycompany:VARIAVEIS >-----------------------
+Building VARIAVEIS 1.0-SNAPSHOT
+  from pom.xml
+--------------------------------[ jar ]---------------------------------
+
+--- resources:3.4.0:resources (default-resources) @ VARIAVEIS ---
+skip non existing resourceDirectory C:\Users\JordanaLeite\Documents\LOGICA_DE_PROGRAMACAO\VARIAVEIS\src\main\resources
+
+--- compiler:3.15.0:compile (default-compile) @ VARIAVEIS ---
+Recompiling the module because of changed source code.
+Compiling 13 source files with javac [debug release 26] to target\classes
+
+--- exec:3.6.3:exec (default-cli) @ VARIAVEIS ---
+Digite um valor inteiro:
+500
+Digite outro valor inteiro:
+650
+A soma dos numeros e: 1150.0
+A subtracao dos numeros e: -150.0
+A multiplicacao dos numeros e: 325000.0
+A divisao dos numeros e: 0.0
+O resto da divisao dos numeros e: 500
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  8.726 s
+Finished at: 2026-09-04T17:34:46-03:00
+------------------------------------------------------------------------
