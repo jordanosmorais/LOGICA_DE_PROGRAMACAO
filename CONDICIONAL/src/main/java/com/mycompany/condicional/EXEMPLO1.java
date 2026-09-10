@@ -27,17 +27,17 @@ public class EXEMPLO1 {
         
         if (imc <= 16.9) {
             System.out.println("Muito abaixo do peso.");
-        }if (imc >= 17 && imc <= 18.4) {
+        }else if (imc >= 17 && imc <= 18.4) {
             System.out.println("Abaixo do peso.");
-        }if (imc >= 18.5 && imc <= 24.9) {
+        }else if (imc >= 18.5 && imc <= 24.9) {
             System.out.println("Peso normal.");
-        }if (imc >= 25 && imc <= 29.9){
+        }else if (imc >= 25 && imc <= 29.9){
             System.out.println("Acima do peso.");
-        }if (imc >= 30 && imc <= 34.9){
+        }else if (imc >= 30 && imc <= 34.9){
             System.out.println("Obesidade grau I.");
-        }if (imc >= 35 && imc <= 40){
+        }else if (imc >= 35 && imc <= 40){
             System.out.println("Obesidade grau II"); 
-        }if (imc >= 40.1 && imc <= 45){
+        }else {
             System.out.println("Obesidade grau III");
         }
         
